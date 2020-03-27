@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="loader">
+        <h1 class="loader__h1">Weather-App</h1>
+        <span class="loader__span"></span>
+        <span class="loader__warning"></span>
+    </div>
+
+    <div class="location">
+        <h1 class="location__timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class="temperature">
+        <div class="degree__section" title="convert to celsius">
+            <h2 class="temperature__degree">34</h2>
+            <span>F</span>
+        </div>
+        <div class="temperature__description">It's friggin cold</div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+</body>
+</html>
